@@ -4,7 +4,7 @@
 
 Get module logger with environment variables
 
-
+[![Build Status](https://travis-ci.org/atomse/modlog.svg?branch=master)](https://travis-ci.org/atomse/modlog)
 
 ## Environment variables
 

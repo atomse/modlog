@@ -31,7 +31,7 @@ install:
 	cd /tmp; pip uninstall -yy $(Project); cd -; python setup.py install || python setup.py install --user
 
 test:
-	bash -c "export TESTMOD_LOGLEVEL=debug; coverage run --source $(Project) ./test/test.py; export TESTMOD_LOGLEVEL=10; coverage run --source $(Project) ./test/test.py"
+	bash -c "export TESTMOD_LOGLEVEL=debug; coverage run --source $(Project) ./tests/test.py; export TESTMOD_LOGLEVEL=10; coverage run --source $(Project) ./tests/test.py"
 	coverage report -m
 
 
